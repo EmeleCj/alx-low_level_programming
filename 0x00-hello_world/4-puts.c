@@ -1,4 +1,3 @@
- Hello, puts
 #include <stdio.h>
 
  /**
