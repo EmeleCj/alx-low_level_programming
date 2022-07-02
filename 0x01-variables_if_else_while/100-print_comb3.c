@@ -14,6 +14,7 @@ int main(void)
 	int n1 = 48;
 	int n2;
 	int com = 44;
+
 	while (n1 <= 57)
 		{
 	n2 = n1 + 1;
