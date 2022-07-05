@@ -12,9 +12,9 @@ int main(void)
 
 	int n = 0;
 
-	char str_hbt[9] = "_putchar";
+	char str_hbt[8] = "_putchar";
 
-	while (n < 9)
+	while (n < 8)
 
 		{
 	_putchar(str_hbt[n]);
