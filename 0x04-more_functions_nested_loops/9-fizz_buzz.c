@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- * main -program that prints the number from 1 to 100
- * But for multiples of three print fizz
- * and for the multiples of five print buzz
+ * main -Fizz Buzz
+ *
  * Return: 0.
  */
 
@@ -10,7 +9,7 @@ int main(void)
 {
 	int num;
 
-	for (num = 1; num <= 100; b++)
+	for (num = 1; num <= 100; num++)
 	{
 		if (num % 3 == 0 && num % 5 == 0)
 		{
