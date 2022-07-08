@@ -13,17 +13,19 @@ void print_triangle(int size)
 	{
 		for (hgt = 0; hgt < size; hgt++)
 		{
-			for (base = 0; base < size; base++)
+			for (base = size - hgt; base > hgt; base--)
 			{
-				aux = (size - hgt) - 1;
-				if (base < aux)
-					_putchar('');
-				else
-					_putchar(35);
+				_putchar (' ');
 			}
-			_putchar('\n');
+			for (aux = 0; aux < hgt + 1; aux++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n')
 		}
 	}
 	else
+	{
 		_putchar('\n');
+	}
 }
