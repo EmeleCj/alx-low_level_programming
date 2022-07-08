@@ -14,7 +14,7 @@ void print_triangle(int size)
 	{
 		for (hgt = 0; hgt < size; base++)
 		{
-			aux = (sisize - hgt) - 1;
+			aux = (size - hgt) - 1;
 			if (base < aux)
 				_putchar('');
 			else
