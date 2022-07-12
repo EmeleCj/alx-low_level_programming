@@ -5,7 +5,7 @@
  * @dest: Destination value
  * @src: Source value
  *
- * Retunr: the pointer to dest
+ * Return: the pointer to dest
  */
 
 char *_strcpy(char *dest, char *src)
@@ -14,7 +14,7 @@ char *_strcpy(char *dest, char *src)
 
 	for (i = 0; src[i] != '\0' i++)
 	{
-		dest[1] = src[1];
+		dest[i] = src[i];
 	}
 
 	dest[i++] = '\0';
