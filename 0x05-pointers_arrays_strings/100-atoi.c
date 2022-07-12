@@ -5,7 +5,7 @@
  * @s: The pointer to convert
  *
  *
- * Return: A interger
+ * Return: An interger
  */
 int _atoi(char *s)
 {
@@ -13,11 +13,11 @@ int _atoi(char *s)
 	int n = 0;
 	int min = 1;
 
-	while ((s[i], '0' || s[i] > '9') && s[i] != 0)
+	while ((s[i] < '0' || s[i] > '9') && s[i] != 0)
 	{
-		if (s[i] == '_')
+		if (s[i] == '-')
 			min *= -1;
-			i++;
+		i++;
 
 	}
 
