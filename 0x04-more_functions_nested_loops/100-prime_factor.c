@@ -5,13 +5,13 @@
  * Return: 0.
  */
 
-int main (void)
-{	
+int main(void)
+{
 	long num = 612852475143;
 	long divisor = 2;
-	long larg_prim =0;
+	long larg_prim = 0;
 
-	while (num !=1)
+	while (num != 1)
 	{
 		if (num % divisor == 0)
 		{
@@ -20,4 +20,6 @@ int main (void)
 		}
 		divisor += 1;
 	}
-	printf("%
+	printf("%1d\n", larg_prim);
+	return (0);
+}
