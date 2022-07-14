@@ -2,11 +2,11 @@
 
 /**
  * cap_string -> capitalization function
- * @x: string param
+ * @s: string param
  * Return: capitalized version of the string
  */
 
-char *cap_string(char *x)
+char *cap_string(char *s)
 {
 	int ia = 0;
 	int ib;
@@ -20,7 +20,7 @@ char *cap_string(char *x)
 	{
 		if (s[ia] >= 'a' && s[ia] <= 'z')
 		{
-			for (ib = 0; str[ib] != '\0\; ib++)
+			for (ib = 0; str[ib] != '\0'; ib++)
 			{
 				if (s[ia - 1] == str[ib])
 					s[ia] = s[ia] - 32;
