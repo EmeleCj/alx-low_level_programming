@@ -10,10 +10,10 @@
  */
 void print_buffer(char *b, int size)
 {
-	int k, j, l;
+	int j, k, l;
 
 	if (size <= 0)
-	printf("\n")
+	printf("\n");
 	else
 	{
 	for (j = 0; j < size; j += 10)
