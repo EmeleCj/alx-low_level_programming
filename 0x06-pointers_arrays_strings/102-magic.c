@@ -8,7 +8,7 @@ int main(void)
 
 	a[2] = 1024;
 	p = &n;
-	/**
+	/*
 	 * write your line code here...
 	 * remember:
 	 * - you are not attlowed to use a
