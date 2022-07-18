@@ -16,7 +16,7 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 	/*loop to copy strinf from source to dest n bytes*/
 	while (counter < n)
 	{
-		dest[counter] = "src++;
+		dest[counter] = *src++;
 		counter++;
 	}
 	return (dest);
