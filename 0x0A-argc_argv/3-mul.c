@@ -25,14 +25,14 @@ int main(int argc, char *argv[])
 				if (count == 1)
 					num1 = atoi(argv[count]);
 				else if (count == 2)
-					num1 = atoi(argv[count]);
+					num2 = atoi(argv[count]);
 			}
 			else
 			{
 				printf("Error\n");
 				return (1);
 			}
-			res = (num1 + num2);
+			res = (num1 * num2);
 			count++;
 		}
 		printf("%d\n", res);
