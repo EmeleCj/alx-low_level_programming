@@ -47,7 +47,7 @@ int main(int argc, char *argv[])
 		num = check_digit(argv[i]);
 		if (num == -1)
 		{
-			num = check_digit(argv[i]);
+			printf("Error\n");
 			return (1);
 		}
 
