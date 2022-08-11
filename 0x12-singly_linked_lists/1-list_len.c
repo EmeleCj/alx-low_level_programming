@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
-* list_len - a function that returns the number of elements
+* list_len - a function that returns the number of elements in alinked list
 * @h: pointer
 * Return: number of elements
 */
