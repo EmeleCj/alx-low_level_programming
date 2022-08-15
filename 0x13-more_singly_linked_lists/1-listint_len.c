@@ -7,7 +7,7 @@
  * Return: Number of elemebts in the list.
  */
 
-size_t listnint_len(const listnt_t *h)
+size_t listint_len(const listint_t *h)
 {
 	int count = 0;
 
